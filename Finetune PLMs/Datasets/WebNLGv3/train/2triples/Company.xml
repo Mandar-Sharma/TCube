@@ -1,0 +1,1017 @@
+<?xml version='1.0' encoding='utf-8'?>
+<benchmark>
+  <entries>
+    <entry category="Company" eid="Id1" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | country | United_States</otriple>
+        <otriple>AmeriGas | foundingYear | 1959-01-01</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+        <otriple>AmeriGas | foundingYear | 1959-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+        <mtriple>AmeriGas | foundingDate | 1959-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas was founded in the United States on 1959-01-01.</lex>
+      <lex comment="good" lid="Id2">AmeriGas, founded on 01-01-1959, works in the country of the United States.</lex>
+      <lex comment="good" lid="Id3">AmeriGas, whose home country is the United States, was founded on January 1, 1959.</lex>
+    </entry>
+    <entry category="Company" eid="Id2" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | country | United_States</otriple>
+        <otriple>AmeriGas | numberOfEmployees | 8500</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+        <otriple>AmeriGas | numberOfEmployees | 8500</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+        <mtriple>AmeriGas | numberOfEmployees | 8500</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is based in the United States and employs 8.5 thousand people.</lex>
+      <lex comment="good" lid="Id2">AmeriGas, whose current employment is 8,500, has its home in the United States.</lex>
+      <lex comment="good" lid="Id3">AmeriGas works in the United States with 8500 employees.</lex>
+    </entry>
+    <entry category="Company" eid="Id3" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | country | United_States</otriple>
+        <otriple>United_States | ethnicGroup | White_American</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+        <mtriple>United_States | ethnicGroup | White_American</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is working in the United States. White American is one of the ethnic groups in that same country.</lex>
+      <lex comment="good" lid="Id2">AmeriGas’s home country is the United States which one of ethnics groups is White Americans.</lex>
+      <lex comment="good" lid="Id3">AmeriGas works in the United States, where White-American is a category for an ethnic group.</lex>
+      <lex comment="good" lid="Id4">AmeriGas's home country is the US, where one of the ethnic groups is White Americans.</lex>
+      <lex comment="good" lid="Id5">AmeriGas works in the country of the United States which has an ethnic grouping of White-American.</lex>
+      <lex comment="good" lid="Id6">AmeriGas is working in the United States where White American is one of the ethnic groups.</lex>
+    </entry>
+    <entry category="Company" eid="Id4" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+        <otriple>United_States | leader | Paul_Ryan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+        <mtriple>United_States | leader | Paul_Ryan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas works in the United States where Paul Ryan is the leader.</lex>
+      <lex comment="good" lid="Id2">AmeriGas works in the United States, one of whose leaders is Paul Ryan.</lex>
+      <lex comment="good" lid="Id3">AmeriGas's home country is the United States, which has Paul Ryan as one of its leaders.</lex>
+      <lex comment="good" lid="Id4">AmeriGas is working in the United States where Paul Ryan is the name of one of the government leaders.</lex>
+      <lex comment="good" lid="Id5">AmeriGas works in the US, where Paul Ryan is the leader.</lex>
+      <lex comment="good" lid="Id6">AmeriGas is located in the United States, one of whose leaders is named Paul Ryan.</lex>
+    </entry>
+    <entry category="Company" eid="Id5" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+        <otriple>United_States | leaderTitle | "Vice President"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AmeriGas | country | United_States</otriple>
+        <otriple>United_States | leaderTitle | "Vice President"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+        <mtriple>United_States | leaderTitle | "Vice President"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas works in the US, where the Vice President is a leader.</lex>
+      <lex comment="good" lid="Id2">AmeriGas's home country is the United States, which has Vice President as one of its leadership titles.</lex>
+      <lex comment="good" lid="Id3">AmeriGas is working in the United States, where Vice President is one of the titles of its government leaders.</lex>
+    </entry>
+    <entry category="Company" eid="Id6" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | industry | Energy_industry</otriple>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | industry | Energy_industry</mtriple>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas works in the United States in the energy industry.</lex>
+      <lex comment="good" lid="Id2">Amerigas, which works in the US, is in the energy industry.</lex>
+      <lex comment="good" lid="Id3">The United States is the home country of AmeriGas, a company in the energy industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id7" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | industry | Energy_industry</otriple>
+        <otriple>AmeriGas | foundingYear | 1959-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | industry | Energy_industry</mtriple>
+        <mtriple>AmeriGas | foundingDate | 1959-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Classified as energy industry, AmeriGas was founded on January 1st, 1959.</lex>
+      <lex comment="good" lid="Id2">AmeriGas is a company in the energy industry that was founded on January 1, 1959.</lex>
+      <lex comment="good" lid="Id3">AmeriGas is a company in the energy industry that was founded on 01-01-1959.</lex>
+    </entry>
+    <entry category="Company" eid="Id8" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | locationCity | King_of_Prussia,_Pennsylvania</otriple>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | city | King_of_Prussia,_Pennsylvania</mtriple>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is located in King of Prussia, Pennsylvania, and does lots of work in the US.</lex>
+      <lex comment="good" lid="Id2">AmeriGas, which works in the United States, is located in King of Prussia, Pennsylvania.</lex>
+      <lex comment="good" lid="Id3">AmeriGas's location is in the city of King of Prussia, Pennsylvania in the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id9" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | locationCity | King_of_Prussia,_Pennsylvania</otriple>
+        <otriple>AmeriGas | operatingIncome | 3.807E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | city | King_of_Prussia,_Pennsylvania</mtriple>
+        <mtriple>AmeriGas | operatingIncome | 380700000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas, which is located in King of Prussia, Pennsylvania, earns an operating income of 380700000.</lex>
+      <lex comment="good" lid="Id2">The Pennsylvania company, AmeriGas has an operating income of 380700000 and is located in King of Prussia.</lex>
+      <lex comment="good" lid="Id3">Located in King of Prussia, Pennsylvania, AmeriGas has an operating income of $380,700,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id10" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | locationCity | King_of_Prussia,_Pennsylvania</otriple>
+        <otriple>King_of_Prussia,_Pennsylvania | type | Census-designated_place</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | city | King_of_Prussia,_Pennsylvania</mtriple>
+        <mtriple>King_of_Prussia,_Pennsylvania | type | Census-designated_place</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is located in King of Prussia, Pennsylvania, which is a census-designated place.</lex>
+      <lex comment="good" lid="Id2">King of Prussia, Pennsylvania, a census-designated place is the location of AmeriGas.</lex>
+    </entry>
+    <entry category="Company" eid="Id11" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | numberOfEmployees | 8500</otriple>
+        <otriple>AmeriGas | netIncome | 2.112E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | numberOfEmployees | 8500</mtriple>
+        <mtriple>AmeriGas | netIncome | 211200000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas earns a net income of 211200000 thanks to the efforts of its 8500 employees.</lex>
+      <lex comment="good" lid="Id2">AmeriGas employs 8,500 people with their net income being 211200000.</lex>
+      <lex comment="good" lid="Id3">AmeriGas has 8,500 employees and a net income of $211,200,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id12" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | operatingIncome | 3.807E8</otriple>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | operatingIncome | 380700000</mtriple>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is a U.S. based company with an operating income of $380,700,000.</lex>
+      <lex comment="good" lid="Id2">AmeriGas's is based in the United States and has an operating income of 380700000.</lex>
+      <lex comment="good" lid="Id3">AmeriGas has an operating income of $380,700,000 and works in the country of the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id13" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | operatingIncome | 3.807E8</otriple>
+        <otriple>AmeriGas | industry | Energy_industry</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | operatingIncome | 380700000</mtriple>
+        <mtriple>AmeriGas | industry | Energy_industry</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is a company in the energy industry whose operating income is 380700000.</lex>
+      <lex comment="good" lid="Id2">AmeriGas is a company in the energy industry that has an operating income of $380,700,000.</lex>
+      <lex comment="good" lid="Id3">With an operating income of 380700000, AmeriGas's industry is classified as energy.</lex>
+    </entry>
+    <entry category="Company" eid="Id14" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | operatingIncome | 3.807E8</otriple>
+        <otriple>AmeriGas | netIncome | 2.112E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | operatingIncome | 380700000</mtriple>
+        <mtriple>AmeriGas | netIncome | 211200000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas has an operating income of $380,700,000 and a net income of $211,200,000.</lex>
+      <lex comment="good" lid="Id2">The operating income of AmeriGas is 380700000, while their net income is 211200000.</lex>
+      <lex comment="good" lid="Id3">AmeriGas earned an operating income of 380700000, producing a net income of $211,200,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id15" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | regionServed | United_States</otriple>
+        <otriple>AmeriGas | locationCity | King_of_Prussia,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | regionServed | United_States</mtriple>
+        <mtriple>AmeriGas | city | King_of_Prussia,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas, which serves all regions of the United States, is located in the city of King of Prussia, Pennsylvania.</lex>
+      <lex comment="good" lid="Id2">AmeriGas is located in King of Prussia, Pennsylvania, and serve the United States.</lex>
+      <lex comment="good" lid="Id3">While a located in king of prussia, pennsylvania, AmeriGas provides its services within the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id16" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | regionServed | United_States</otriple>
+        <otriple>AmeriGas | operatingIncome | 3.807E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | regionServed | United_States</mtriple>
+        <mtriple>AmeriGas | operatingIncome | 380700000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas serves the United States, and their operating income is 380700000.</lex>
+      <lex comment="good" lid="Id2">AmeriGas serves all regions of the United States, and their operating income is 380700000.</lex>
+      <lex comment="good" lid="Id3">AmeriGas, which provides services in the United States, has an operating income of $380,700,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id17" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | regionServed | United_States</otriple>
+        <otriple>United_States | leader | Paul_Ryan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | regionServed | United_States</mtriple>
+        <mtriple>United_States | leader | Paul_Ryan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Paul Ryan is the leader of the United States where AmeriGas provides its services.</lex>
+      <lex comment="good" lid="Id2">Paul Ryan is the name of one of the government leaders in the United States, which Amerigas serves.</lex>
+      <lex comment="good" lid="Id3">AmeriGas services all regions of the United States, which boasts Paul Ryan as one of its leaders.</lex>
+    </entry>
+    <entry category="Company" eid="Id18" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | regionServed | United_States</otriple>
+        <otriple>United_States | leaderTitle | "Vice President"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | regionServed | United_States</mtriple>
+        <mtriple>United_States | leaderTitle | "Vice President"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Vice President is a United States leadership title, and AmeriGas provides its services in the United States.</lex>
+      <lex comment="good" lid="Id2">AmeriGas serves all regions of the United States, with one leadership title for the United States being Vice President.</lex>
+      <lex comment="good" lid="Id3">AmeriGas serves the US, where Vice President is one of the titles of the government's leaders.</lex>
+    </entry>
+    <entry category="Company" eid="Id19" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</otriple>
+        <otriple>Chinabank | location | Philippines</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</mtriple>
+        <mtriple>Chinabank | location | Philippines</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank was founded in the Insular Government of the Philippine Islands, currently still remaining in the Philippines.</lex>
+      <lex comment="good" lid="Id2">Chinabank, which is located in the Philippines, was founded in the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id3">Chinabank was founded in the Philippines' Insular Government, and is still located there.</lex>
+    </entry>
+    <entry category="Company" eid="Id20" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</otriple>
+        <otriple>Insular_Government_of_the_Philippine_Islands | foundingDate | 1901-07-01</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</otriple>
+        <otriple>Insular_Government_of_the_Philippine_Islands | foundingYear | 1901-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</mtriple>
+        <mtriple>Insular_Government_of_the_Philippine_Islands | foundingDate | 1901-07-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank was founded in the Insular Government of the Philippine Islands, which was founded on July 1st, 1901.</lex>
+      <lex comment="good" lid="Id2">Chinabank was founded in the Insular Government of the Philippine Islands, which was established on July 1, 1901.</lex>
+      <lex comment="good" lid="Id3">Chinabank was founded in the Insular Government of the Philippine Islands on 07-01-1901.</lex>
+    </entry>
+    <entry category="Company" eid="Id21" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | foundationPlace | Manila</otriple>
+        <otriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundationPlace | Manila</mtriple>
+        <mtriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank was founded in Manila in the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id2">Chinabank was founded in Manila, in the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id3">Manila, the Insular Government of the Philippine Islands, is the founding location of Chinabank.</lex>
+    </entry>
+    <entry category="Company" eid="Id22" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | foundationPlace | Manila</otriple>
+        <otriple>Chinabank | type | Public_company</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundationPlace | Manila</mtriple>
+        <mtriple>Chinabank | type | Public_company</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank is a public company that was founded in Manila.</lex>
+      <lex comment="good" lid="Id2">Chinabank is a publicly traded company which was founded in Manila.</lex>
+      <lex comment="good" lid="Id3">Chinabank was founded in Manila, but is now a publicly traded company.</lex>
+    </entry>
+    <entry category="Company" eid="Id23" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | foundingDate | 1920-08-16</otriple>
+        <otriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundingDate | 1920-08-16</mtriple>
+        <mtriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank was founded on 1920-08-16 in the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id2">Founded on August16, 1920, Chinabank began in the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id3">Chinabank was founded on 08-16-1920 in the Insular Government of the Philippine Islands.</lex>
+    </entry>
+    <entry category="Company" eid="Id24" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | foundingYear | 1920-01-01</otriple>
+        <otriple>Chinabank | netIncome | 1.51E10</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundingDate | 1920-08-16</mtriple>
+        <mtriple>Chinabank | netIncome | 15100000000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank, which was founded on 08-16-1920, has a net income of 15,100,000,000.</lex>
+      <lex comment="good" lid="Id2">Chinabank, a company founded on 1920-08-16, currently boasts a net income of 15100000000.</lex>
+      <lex comment="good" lid="Id3">The net income of Chinabank which was founded August 16, 1920 is 15,100,000,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id25" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | foundingDate | 1920-08-16</otriple>
+        <otriple>Chinabank | numberOfEmployees | 5594</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Chinabank | foundingYear | 1920-01-01</otriple>
+        <otriple>Chinabank | numberOfEmployees | 5594</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundingDate | 1920-08-16</mtriple>
+        <mtriple>Chinabank | numberOfEmployees | 5594</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Founded on 08-16-1920, Chinabank has 5594 employees.</lex>
+      <lex comment="good" lid="Id2">Founded on August 16th, 1920; Chinabank employs 5594 people.</lex>
+      <lex comment="good" lid="Id3">There are currently 5594 workers employed at Chinabank, which was established on August 16, 1920.</lex>
+    </entry>
+    <entry category="Company" eid="Id26" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | foundingDate | 1920-08-16</otriple>
+        <otriple>Chinabank | numberOfLocations | 295</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundingDate | 1920-08-16</mtriple>
+        <mtriple>Chinabank | numberOfLocations | 295</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Founded August 16, 1920, Chinabank currently has 295 locations.</lex>
+      <lex comment="good" lid="Id2">Chinabank, which was founded on August 16, 1920, has 295 banking centers.</lex>
+      <lex comment="good" lid="Id3">Chinabank, which was founded on 1920-08-16, has 295 branches.</lex>
+    </entry>
+    <entry category="Company" eid="Id27" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | location | Philippines</otriple>
+        <otriple>Philippines | leader | Pantaleon_Alvarez</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | location | Philippines</mtriple>
+        <mtriple>Philippines | leader | Pantaleon_Alvarez</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank is located in the Philippines, which is led by Pantaleon Alvarez.</lex>
+      <lex comment="good" lid="Id2">Chinabank's location is the Philippines where Pantaleon Alvarez is the leader.</lex>
+      <lex comment="good" lid="Id3">Chinabank is located in the Philippines, where Pantaleon Alvarez is a political leader.</lex>
+    </entry>
+    <entry category="Company" eid="Id28" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | location | Philippines</otriple>
+        <otriple>Philippines | leaderTitle | President</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | location | Philippines</mtriple>
+        <mtriple>Philippines | leaderTitle | President</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank is located in the Philippines whose leader has the title of president.</lex>
+      <lex comment="good" lid="Id2">The title of the leader of the Philippines is president, and Chinabank is located there.</lex>
+      <lex comment="good" lid="Id3">Chinabank's location is in the Philippines where The President is the leader's title.</lex>
+    </entry>
+    <entry category="Company" eid="Id29" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | numberOfLocations | 295</otriple>
+        <otriple>Chinabank | foundationPlace | Manila</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | numberOfLocations | 295</mtriple>
+        <mtriple>Chinabank | foundationPlace | Manila</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">After being founded in Manila, Chinabank now has 295 locations.</lex>
+      <lex comment="good" lid="Id2">Chinabank has 295 locations, but Manila is the place of its founding.</lex>
+      <lex comment="good" lid="Id3">Chinabank, founded in Manila, has 295 branches.</lex>
+    </entry>
+    <entry category="Company" eid="Id30" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | service | Banking</otriple>
+        <otriple>Chinabank | numberOfEmployees | 5594</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | service | Banking</mtriple>
+        <mtriple>Chinabank | numberOfEmployees | 5594</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">With 5594 total employees, Chinabank operates in the banking service.</lex>
+      <lex comment="good" lid="Id2">Chinabank is a banking service company with 5594 employees.</lex>
+      <lex comment="good" lid="Id3">Employing 5594 people, Chinabank administers banking services to consumers.</lex>
+    </entry>
+    <entry category="Company" eid="Id31" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | service | Banking</otriple>
+        <otriple>Chinabank | numberOfLocations | 295</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | service | Banking</mtriple>
+        <mtriple>Chinabank | numberOfLocations | 295</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank provides banking services to customers and has 295 banking centers.</lex>
+      <lex comment="good" lid="Id2">Chinabank has 295 branches in the banking service industry.</lex>
+      <lex comment="good" lid="Id3">Chinabank offers banking service across its 295 locations.</lex>
+    </entry>
+    <entry category="Company" eid="Id32" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | foundingYear | 2000-01-01</otriple>
+        <otriple>GMA_New_Media | industry | Mass_Media</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | foundingDate | 2000-01-01</mtriple>
+        <mtriple>GMA_New_Media | industry | Mass_Media</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media, founded 01/01/2000, is in the mass media industry.</lex>
+      <lex comment="good" lid="Id2">Founded on january 1, 2000, GMA New Media's industry is mass media.</lex>
+      <lex comment="good" lid="Id3">Founded on 01-01-2000, GMA New Media is a mass media industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id33" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | foundingYear | 2000-01-01</otriple>
+        <otriple>GMA_New_Media | location | GMA_Network_Center</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | foundingDate | 2000-01-01</mtriple>
+        <mtriple>GMA_New_Media | location | GMA_Network_Center</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media, which was founded on 01/01/2000, is located in the GMA Network Center.</lex>
+      <lex comment="good" lid="Id2">GMA New Media, which was founded on 01-01-2000, has its headquarters in the GMA Network Center.</lex>
+      <lex comment="good" lid="Id3">GMA New Media, which was founded on January 1, 2000, is located inside GMA Network Center.</lex>
+    </entry>
+    <entry category="Company" eid="Id34" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | foundingYear | 2000-01-01</otriple>
+        <otriple>GMA_New_Media | type | Media_company</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | foundingDate | 2000-01-01</mtriple>
+        <mtriple>GMA_New_Media | type | Media_company</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is a media company that was founded on 01-01-2000.</lex>
+      <lex comment="good" lid="Id2">GMA New Media, Inc., which was founded on January 1, 2000, is a media company.</lex>
+      <lex comment="good" lid="Id3">GMA New Media is a media company which was founded on 01/01/2000.</lex>
+    </entry>
+    <entry category="Company" eid="Id35" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | industry | Entertainment</otriple>
+        <otriple>GMA_New_Media | product | World_Wide_Web</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | industry | Entertainment</mtriple>
+        <mtriple>GMA_New_Media | product | World_Wide_Web</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media not only offers applications in the entertainment industry, but also produces web services.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is an entertainment company that makes web sites.</lex>
+      <lex comment="good" lid="Id3">GMA New Media is an entertainment industry that offers services concerning the World Wide Web.</lex>
+    </entry>
+    <entry category="Company" eid="Id36" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | industry | Entertainment</otriple>
+        <otriple>GMA_New_Media | type | Media_company</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | industry | Entertainment</mtriple>
+        <mtriple>GMA_New_Media | type | Media_company</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media, Inc. is a media company that offers applications in the entertainment industry.</lex>
+      <lex comment="good" lid="Id2">GMA New Media, a media company, is also an entertainment industry.</lex>
+      <lex comment="good" lid="Id3">GMA New Media, Inc. is a media company in the entertainment industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id37" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | keyPerson | Felipe_Gozon</otriple>
+        <otriple>GMA_New_Media | industry | Entertainment</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | keyPerson | Felipe_Gozon</mtriple>
+        <mtriple>GMA_New_Media | industry | Entertainment</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The key person on GMA New Media, an entertainment industry company, is Felipe Gozon.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is an entertainment industry with Felipe Gozon as a key person.</lex>
+      <lex comment="good" lid="Id3">Felipe Gozon, is a key person of GMA New Media, which offers applications in the entertainment industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id38" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | keyPerson | Felipe_Gozon</otriple>
+        <otriple>GMA_New_Media | type | Media_company</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | keyPerson | Felipe_Gozon</mtriple>
+        <mtriple>GMA_New_Media | type | Media_company</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Felipe Gozon is the key person for the media company, GMA New Media.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is a media company where Felipe Gozon is a key person.</lex>
+      <lex comment="good" lid="Id3">GMA New Media, Inc. is a media company where Felipe Gozon is the key person.</lex>
+    </entry>
+    <entry category="Company" eid="Id39" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | location | Philippines</otriple>
+        <otriple>GMA_New_Media | location | Quezon_City</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | location | Philippines</mtriple>
+        <mtriple>GMA_New_Media | location | Quezon_City</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is located in Quezon city of the Philippines.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is located in the Philippines, with its headquarters in Quezon City.</lex>
+      <lex comment="good" lid="Id3">GMA New Media is located in Quezon City, Philippines.</lex>
+    </entry>
+    <entry category="Company" eid="Id40" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | location | Philippines</otriple>
+        <otriple>GMA_New_Media | product | World_Wide_Web</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | location | Philippines</mtriple>
+        <mtriple>GMA_New_Media | product | World_Wide_Web</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media, which is located in the Philippines, produces web services.</lex>
+      <lex comment="good" lid="Id2">The Philippines houses GMA New Media, a company which offers services involving the World Wide Web.</lex>
+      <lex comment="good" lid="Id3">GMA New Media, located in the Philippines, makes web sites.</lex>
+    </entry>
+    <entry category="Company" eid="Id41" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | location | Philippines</otriple>
+        <otriple>GMA_New_Media | type | Media_company</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | location | Philippines</mtriple>
+        <mtriple>GMA_New_Media | type | Media_company</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is a media company located in the Philippines.</lex>
+      <lex comment="good" lid="Id2">GMA New Media, Inc. which is located in the Philippines, is a media company.</lex>
+      <lex comment="good" lid="Id3">GMA New Media, Inc. is a media company located in the Philippines.</lex>
+    </entry>
+    <entry category="Company" eid="Id42" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | location | Philippines</otriple>
+        <otriple>Philippines | leaderTitle | President</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | location | Philippines</mtriple>
+        <mtriple>Philippines | leaderTitle | President</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is located in the Philippines, where the President is the title of the leader.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is located in the Philippines, which is led by the President.</lex>
+      <lex comment="good" lid="Id3">GMA New Media is located in the Philippines where the title of the leader is president.</lex>
+    </entry>
+    <entry category="Company" eid="Id43" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | location | Quezon_City</otriple>
+        <otriple>Quezon_City | areaTotal | 165.33</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | location | Quezon_City</mtriple>
+        <mtriple>Quezon_City | areaTotal | 165.33</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is located in Quezon City, which has a total area of 165.33.</lex>
+      <lex comment="good" lid="Id2">Quezon City has a total area of 165.33. GMA New Media headquarters are located in Quezon City.</lex>
+      <lex comment="good" lid="Id3">GMA New Media is located in the city of Quezon, which has a total area of 165.33.</lex>
+    </entry>
+    <entry category="Company" eid="Id44" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | parentCompany | GMA_Network_(company)</otriple>
+        <otriple>GMA_Network_(company) | keyPerson | Felipe_Gozon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | parentCompany | GMA_Network_(company)</mtriple>
+        <mtriple>GMA_Network_(company) | keyPerson | Felipe_Gozon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA Network, the parent company of GMA New Media, is headed by Felipe Gozon.</lex>
+      <lex comment="good" lid="Id2">Felipe Gozon is a key person within the GMA Network company, the parent company to GMA New Media.</lex>
+      <lex comment="good" lid="Id3">With GMA New Media, Inc as a subsidiary, GMA Network features Felipe Gozon as a key person.</lex>
+    </entry>
+    <entry category="Company" eid="Id45" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | product | Mobile_Applications</otriple>
+        <otriple>GMA_New_Media | product | World_Wide_Web</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | product | Mobile_Applications</mtriple>
+        <mtriple>GMA_New_Media | product | World_Wide_Web</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is a company that offers products such as mobile applications, but they also make web sites.</lex>
+      <lex comment="good" lid="Id2">GMA New Media produces both webservices and mobile apps.</lex>
+      <lex comment="good" lid="Id3">GMA New Media makes mobile applications, more broadly offering services concerning the World Wide Web.</lex>
+    </entry>
+    <entry category="Company" eid="Id46" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | industry | Pharmaceuticals</otriple>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | industry | Pharmaceuticals</mtriple>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Founded on 2001-01-01, Hypermarcas is in the pharmaceutical industry.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is a pharmaceutical company that was founded on January 1, 2001.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas, which was founded on January 1, 2001, is in the pharmaceuticals industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id47" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | industry | Pharmaceuticals</otriple>
+        <otriple>Hypermarcas | keyPerson | CEO</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | industry | Pharmaceuticals</mtriple>
+        <mtriple>Hypermarcas | keyPerson | CEO</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Managed by their CEO, Hypermarcas is in the pharmaceuticals industry.</lex>
+      <lex comment="good" lid="Id2">With their CEO as a key person, Hypermarcas is in the pharmaceutical industry.</lex>
+      <lex comment="good" lid="Id3">The CEO is the key person in Hypermarcas, which is a pharmaceutical company.</lex>
+    </entry>
+    <entry category="Company" eid="Id48" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | keyPerson | CEO</otriple>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | keyPerson | CEO</mtriple>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas was founded on January 1st, 2001. The key persona in Hypermarcas is their CEO.</lex>
+      <lex comment="good" lid="Id2">The CEO is the key person in Hypermarcas, which was founded on January 1, 2001.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas was founded on January 1, 2001 under the management of the CEO.</lex>
+    </entry>
+    <entry category="Company" eid="Id49" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | keyPerson | CEO</otriple>
+        <otriple>Hypermarcas | numberOfEmployees | 10252</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | keyPerson | CEO</mtriple>
+        <mtriple>Hypermarcas | numberOfEmployees | 10252</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas has 10252 employees, but the key employee is the CEO.</lex>
+      <lex comment="good" lid="Id2">While the key person at Hypermarcas is the CEO, they also employ 10252 people as well.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is managed by their CEO and has 10252.</lex>
+    </entry>
+    <entry category="Company" eid="Id50" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | location | Brazil</otriple>
+        <otriple>Brazil | leaderTitle | "Vice President"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | location | Brazil</mtriple>
+        <mtriple>Brazil | leaderTitle | "Vice President"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is located in Brazil, a country led by the Vice President.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is located in Brazil, where Vice President is the name of a leader title.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is located in Brazil, a country with Vice President as a leadership title.</lex>
+    </entry>
+    <entry category="Company" eid="Id51" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | location | Brazil</otriple>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | location | Brazil</mtriple>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Founded on 2001-01-01, Hypermarcas is located in Brazil.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas, which is located in Brazil, was founded on January 1, 2001.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas, which is a company founded on January 1, 2001, is located in Brazil.</lex>
+    </entry>
+    <entry category="Company" eid="Id52" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | location | Brazil</otriple>
+        <otriple>Hypermarcas | keyPerson | CEO</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | location | Brazil</mtriple>
+        <mtriple>Hypermarcas | keyPerson | CEO</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas, which is located in Brazil, calls its CEO its key person.</lex>
+      <lex comment="good" lid="Id2">The key person of brazilian company, Hypermarcas, is their CEO.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is located in Brazil and managed by their CEO.</lex>
+    </entry>
+    <entry category="Company" eid="Id53" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | location | Brazil</otriple>
+        <otriple>Hypermarcas | location | São_Paulo</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | location | Brazil</mtriple>
+        <mtriple>Hypermarcas | location | São_Paulo</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is located in São Paulo, Brazil.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is located in Sao Paulo, Brazil.</lex>
+    </entry>
+    <entry category="Company" eid="Id54" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | numberOfEmployees | 10252</otriple>
+        <otriple>Hypermarcas | product | Healthcare</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | numberOfEmployees | 10252</mtriple>
+        <mtriple>Hypermarcas | product | Healthcare</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas, which has 10252 employees, produces healthcare products.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas, a company selling healthcare products, has 10252 employees.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas employs 10,252 people for making healthcare products.</lex>
+    </entry>
+    <entry category="Company" eid="Id55" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | product | Cosmetics</otriple>
+        <otriple>Hypermarcas | revenue | 1.8E9</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | product | Cosmetics</mtriple>
+        <mtriple>Hypermarcas | revenue | 1800000000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is a company which sells cosmetics; their revenue is $1,800,000,000.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas makes $1,800,000,000 a year, in part from its production of cosmetics products.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas earns 1800000000 annually by selling cosmetics.</lex>
+    </entry>
+    <entry category="Company" eid="Id56" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | product | Drugs</otriple>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | product | Drugs</mtriple>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is the company founded on January 1, 2001, their main product is drugs.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas, founded on January 1, 2001, produces pharmaceutical drugs.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas, which was founded on 2001-01-01, makes drugs.</lex>
+    </entry>
+    <entry category="Company" eid="Id57" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | product | Drugs</otriple>
+        <otriple>Hypermarcas | industry | Pharmaceuticals</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | product | Drugs</mtriple>
+        <mtriple>Hypermarcas | industry | Pharmaceuticals</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is a drug maker in the pharmaceutical industry.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is in the pharmaceuticals industry. Their main product is drugs.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is a pharmeceutical company which produces drugs.</lex>
+    </entry>
+    <entry category="Company" eid="Id58" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | product | Drugs</otriple>
+        <otriple>Hypermarcas | keyPerson | CEO</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | product | Drugs</mtriple>
+        <mtriple>Hypermarcas | keyPerson | CEO</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas, whose key person is their CEO, produces pharmaceutical drugs.</lex>
+      <lex comment="good" lid="Id2">The CEO is the head of the drugmaker, Hypermarcas.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is managed by their CEO and their main product is drugs.</lex>
+    </entry>
+    <entry category="Company" eid="Id59" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | product | Drugs</otriple>
+        <otriple>Hypermarcas | product | Healthcare</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | product | Drugs</mtriple>
+        <mtriple>Hypermarcas | product | Healthcare</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas produces pharmaceutical drugs, more specifically healthcare products.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas sells healthcare products of which the main product is drugs.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas makes drugs, more specifically producing healthcare products.</lex>
+    </entry>
+    <entry category="Company" eid="Id60" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | type | S.A._(corporation)</otriple>
+        <otriple>Hypermarcas | numberOfEmployees | 10252</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | type | S.A._(corporation)</mtriple>
+        <mtriple>Hypermarcas | numberOfEmployees | 10252</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is a type of S.A. corporation that has 10252 employees.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is an S.A. corporation which employs 10,252 people.</lex>
+      <lex comment="good" lid="Id3">The S.A. (corporation) of Hypermarcas employs a total of 10252 people.</lex>
+    </entry>
+    <entry category="Company" eid="Id61" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | type | S.A._(corporation)</otriple>
+        <otriple>Hypermarcas | product | Healthcare</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | type | S.A._(corporation)</mtriple>
+        <mtriple>Hypermarcas | product | Healthcare</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A type of S.A. corporation, Hypermarcas, is in the business of producing healthcare products.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is an S.A. corporation that makes healthcare products.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is a S.A corporation that sells healthcare products.</lex>
+    </entry>
+    <entry category="Company" eid="Id62" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Trane | foundationPlace | La_Crosse,_Wisconsin</otriple>
+        <otriple>La_Crosse,_Wisconsin | areaTotal | 58.38</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundationPlace | La_Crosse,_Wisconsin</mtriple>
+        <mtriple>La_Crosse,_Wisconsin | areaTotal | 58.38</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">La Crosse, Wisconsin, where Trane was founded, has the total area of 58.38 square kilometers.</lex>
+      <lex comment="good" lid="Id2">Trane was founded in La Crosse, Wisconsin, an American city with a total area of 58.38.</lex>
+      <lex comment="good" lid="Id3">Trane is founded in La Crosse, Wisconsin, a place with total area of 58.38.</lex>
+    </entry>
+    <entry category="Company" eid="Id63" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Trane | foundationPlace | La_Crosse,_Wisconsin</otriple>
+        <otriple>La_Crosse,_Wisconsin | leaderTitle | Mayor</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundationPlace | La_Crosse,_Wisconsin</mtriple>
+        <mtriple>La_Crosse,_Wisconsin | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane was founded in La Crosse WI, which is led by a mayor.</lex>
+      <lex comment="good" lid="Id2">La Crosse, Wisconsin, led by a Mayor, is where Trane was founded.</lex>
+      <lex comment="good" lid="Id3">Trane was founded in La Crosse, Wisconsin, which is governed by a mayor.</lex>
+    </entry>
+    <entry category="Company" eid="Id64" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | foundationPlace | La_Crosse,_Wisconsin</otriple>
+        <otriple>Trane | product | HVAC</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundationPlace | La_Crosse,_Wisconsin</mtriple>
+        <mtriple>Trane | product | HVAC</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane is an HVAC manufacturer founded in La Crosse, Wisconsin.</lex>
+      <lex comment="good" lid="Id2">Trane is a company that produces HVAC that was founded in La Crosse, Wisconsin.</lex>
+      <lex comment="good" lid="Id3">Trane was founded in La Crosse, Wisconsin and they produce HVAC.</lex>
+    </entry>
+    <entry category="Company" eid="Id65" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | foundingYear | 1913-01-01</otriple>
+        <otriple>Trane | industry | Building_materials</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundingDate | 1913-01-01</mtriple>
+        <mtriple>Trane | industry | Building_materials</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The material building industry Trane was founded on New Years Day in 1913.</lex>
+      <lex comment="good" lid="Id2">Trane is a company specializing in building materials that was founded on 1913-01-01.</lex>
+      <lex comment="good" lid="Id3">Founded on 01-01-1913, trane's industry is building materials.</lex>
+    </entry>
+    <entry category="Company" eid="Id66" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | foundingYear | 1913-01-01</otriple>
+        <otriple>Trane | location | Ireland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundingDate | 1913-01-01</mtriple>
+        <mtriple>Trane | location | Ireland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The founding date of Trane, Ireland is 1913-01-01.</lex>
+      <lex comment="good" lid="Id2">Trane, which is a company in Ireland, was founded on 1913-01-01.</lex>
+      <lex comment="good" lid="Id3">Trane, located in Ireland, was founded on 01-01-1913.</lex>
+    </entry>
+    <entry category="Company" eid="Id67" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | location | Ireland</otriple>
+        <otriple>Trane | foundationPlace | La_Crosse,_Wisconsin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | location | Ireland</mtriple>
+        <mtriple>Trane | foundationPlace | La_Crosse,_Wisconsin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The company Trane was founded in La Crosse, Wisconsin, but is now located in Ireland.</lex>
+      <lex comment="good" lid="Id2">Trane was founded in La Crosse, Wisconsin, but is currently located in Ireland.</lex>
+      <lex comment="good" lid="Id3">Trane is located in Ireland, but was founded in La Crosse, Wisconsin.</lex>
+    </entry>
+    <entry category="Company" eid="Id68" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | location | Ireland</otriple>
+        <otriple>Trane | product | HVAC</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | location | Ireland</mtriple>
+        <mtriple>Trane | product | HVAC</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane, which manufactures HVAC, is located in Ireland.</lex>
+      <lex comment="good" lid="Id2">Trane is a company that produces HVAC in Ireland.</lex>
+      <lex comment="good" lid="Id3">Trane, which produces HVAC in its line of products, is a company located in Ireland.</lex>
+    </entry>
+    <entry category="Company" eid="Id69" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | location | Swords,_Dublin</otriple>
+        <otriple>Trane | type | Subsidiary</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | location | Swords,_Dublin</mtriple>
+        <mtriple>Trane | type | Subsidiary</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane is a subsidiary that is located in Swords, Dublin.</lex>
+      <lex comment="good" lid="Id2">Trane is a subsidiary located in Swords, Dublin.</lex>
+      <lex comment="good" lid="Id3">Trane is a subsidiary company that is located in Swords, Dublin.</lex>
+    </entry>
+    <entry category="Company" eid="Id70" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | numberOfEmployees | 29000</otriple>
+        <otriple>Trane | product | HVAC</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | numberOfEmployees | 29000</mtriple>
+        <mtriple>Trane | product | HVAC</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane produces HVAC, employing 29,000 people.</lex>
+      <lex comment="good" lid="Id2">There are 29,000 employees at HVAC producer Trane.</lex>
+      <lex comment="good" lid="Id3">Trane employ 29000 people that produce products such as HVAC.</lex>
+    </entry>
+    <entry category="Company" eid="Id71" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | product | Building_Management_System</otriple>
+        <otriple>Trane | location | Swords,_Dublin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | product | Building_Management_System</mtriple>
+        <mtriple>Trane | location | Swords,_Dublin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In Swords, Dublin, the company Trane produces systems for building management.</lex>
+      <lex comment="good" lid="Id2">Trane is located in Swords, Dublin and they manufacture building management systems.</lex>
+      <lex comment="good" lid="Id3">Trane is a company located in Swords, Dublin that makes building management systems.</lex>
+    </entry>
+    <entry category="Company" eid="Id72" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | product | Building_Management_System</otriple>
+        <otriple>Trane | product | HVAC</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | product | Building_Management_System</mtriple>
+        <mtriple>Trane | product | HVAC</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane produces HVAC and building management systems.</lex>
+      <lex comment="good" lid="Id2">Trane is a producer of building management systems including HVAC products.</lex>
+      <lex comment="good" lid="Id3">Trane produces building management systems and HVAC.</lex>
+    </entry>
+    <entry category="Company" eid="Id73" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | product | Building_Management_System</otriple>
+        <otriple>Trane | revenue | 1.0264E10</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | product | Building_Management_System</mtriple>
+        <mtriple>Trane | revenue | 10264000000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane, which produces building management systems, has a revenue of $10,264,000,000.</lex>
+      <lex comment="good" lid="Id2">Trane makes building management systems, their revenue is 10264000000.</lex>
+      <lex comment="good" lid="Id3">Trane manufactures building management systems, with a revenue of $10,264,000,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id74" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | product | Building_Management_System</otriple>
+        <otriple>Trane | type | Subsidiary</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | product | Building_Management_System</mtriple>
+        <mtriple>Trane | type | Subsidiary</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane is a subsidiary company that makes building management systems.</lex>
+      <lex comment="good" lid="Id2">The Trane company is a subsidiary that manufactures building management systems.</lex>
+      <lex comment="good" lid="Id3">Trane is a subsidiary that produces building management systems.</lex>
+    </entry>
+    <entry category="Company" eid="Id75" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | product | HVAC</otriple>
+        <otriple>Trane | industry | Building_materials</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | product | HVAC</mtriple>
+        <mtriple>Trane | industry | Building_materials</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane, a building materials supplier, produces HVAC.</lex>
+      <lex comment="good" lid="Id2">The Trane industry is building materials, and they manufacture HVAC.</lex>
+      <lex comment="good" lid="Id3">Trane is in the building materials industry and one of their products is HVAC.</lex>
+    </entry>
+    <entry category="Company" eid="Id76" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | revenue | 1.0264E10</otriple>
+        <otriple>Trane | location | Swords,_Dublin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | revenue | 10264000000</mtriple>
+        <mtriple>Trane | location | Swords,_Dublin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">With a revenue of $10,264,000,000, Trane is located in Swords, Dublin.</lex>
+      <lex comment="good" lid="Id2">The location of Trane is Swords, Dublin and has a revenue of 10264000000.</lex>
+      <lex comment="good" lid="Id3">Trane, which is located in Swords, Dublin, has a revenue of $10,264,000,000.</lex>
+    </entry>
+  </entries>
+</benchmark>

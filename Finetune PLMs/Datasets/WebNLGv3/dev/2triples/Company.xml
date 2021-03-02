@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<benchmark>
+  <entries>
+    <entry category="Company" eid="Id1" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | locationCity | King_of_Prussia,_Pennsylvania</otriple>
+        <otriple>AmeriGas | industry | Energy_industry</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | city | King_of_Prussia,_Pennsylvania</mtriple>
+        <mtriple>AmeriGas | industry | Energy_industry</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Located in King of Prussia, Pennsylvania; Amerigas is in the energy industry.</lex>
+      <lex comment="good" lid="Id2">AmeriGas is an energy company in King of Prussia, Pennsylvania.</lex>
+      <lex comment="good" lid="Id3">AmeriGas is an energy company and is located in King of Prussia, Pennsylvania.</lex>
+    </entry>
+    <entry category="Company" eid="Id2" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>AmeriGas | regionServed | United_States</otriple>
+        <otriple>AmeriGas | industry | Energy_industry</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | regionServed | United_States</mtriple>
+        <mtriple>AmeriGas | industry | Energy_industry</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is a company in the energy industry, and they serve all regions of the United States.</lex>
+      <lex comment="good" lid="Id2">AmeriGas is in the energy business and is located in the United States where its services are provided.</lex>
+      <lex comment="good" lid="Id3">AmeriGas's industry is classified as the energy industry. They serve the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id3" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | service | Banking</otriple>
+        <otriple>Chinabank | netIncome | 1.51E10</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | service | Banking</mtriple>
+        <mtriple>Chinabank | netIncome | 15100000000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank currently pulls in 15100000000 in net income for its banking services.</lex>
+      <lex comment="good" lid="Id2">Chinabank provides banking services to customers, earning a net income of 15,100,000,000.</lex>
+      <lex comment="good" lid="Id3">Chinabank offers banking services to make a net income of 15,100,000,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id4" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Chinabank | type | Public_company</otriple>
+        <otriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | type | Public_company</mtriple>
+        <mtriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank, a publicly traded company, was founded in the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id2">Chinabank is a publicly traded company that was founded in the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id3">Chinabank is a public company with the Insular Government of the Philippine Islands being its foundation place.</lex>
+    </entry>
+    <entry category="Company" eid="Id5" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>GMA_New_Media | product | Mobile_Applications</otriple>
+        <otriple>GMA_New_Media | industry | Mass_Media</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | product | Mobile_Applications</mtriple>
+        <mtriple>GMA_New_Media | industry | Mass_Media</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA new media is a mass media industry that makes mobile applications.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is a company in the mass media industry that offers products such as mobile applications.</lex>
+      <lex comment="good" lid="Id3">GMA New Media makes mobile apps and is in the mass media industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id6" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | industry | Pharmaceuticals</otriple>
+        <otriple>Hypermarcas | product | Cosmetics</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | industry | Pharmaceuticals</mtriple>
+        <mtriple>Hypermarcas | product | Cosmetics</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is a pharmaceutical company that also sells cosmetics.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is a company in the pharmaceuticals industry that also produces cosmetics.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is a company that is both in the pharmaceutical and cosmetic production industries.</lex>
+    </entry>
+    <entry category="Company" eid="Id7" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | keyPerson | CEO</otriple>
+        <otriple>Hypermarcas | type | S.A._(corporation)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | keyPerson | CEO</mtriple>
+        <mtriple>Hypermarcas | type | S.A._(corporation)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas, a type of S.A (corporation) is managed by their CEO.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is an S.A. corporation with its CEO as its key person.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is a type of S.A. corporation, and their CEO acts as their key person.</lex>
+    </entry>
+    <entry category="Company" eid="Id8" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | location | Brazil</otriple>
+        <otriple>Hypermarcas | product | Drugs</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | location | Brazil</mtriple>
+        <mtriple>Hypermarcas | product | Drugs</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas, which is located in Brazil, is a company that makes drugs.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas, which is located in Brazil, produces pharmaceutical drugs.</lex>
+      <lex comment="good" lid="Id3">Located in Brazil, Hypermarcas's main product is drugs.</lex>
+    </entry>
+    <entry category="Company" eid="Id9" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Hypermarcas | product | Drugs</otriple>
+        <otriple>Hypermarcas | location | São_Paulo</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | product | Drugs</mtriple>
+        <mtriple>Hypermarcas | location | São_Paulo</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The main product of Hypermarcas, which is located in São Paulo, is drugs.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas makes drugs in São Paulo.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is a company located in Sao Paulo that produces pharmaceutical drugs.</lex>
+    </entry>
+    <entry category="Company" eid="Id10" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | foundingYear | 1913-01-01</otriple>
+        <otriple>Trane | foundationPlace | La_Crosse,_Wisconsin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundingDate | 1913-01-01</mtriple>
+        <mtriple>Trane | foundationPlace | La_Crosse,_Wisconsin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane was founded in La Crosse, Wisconsin, on January 1, 1913.</lex>
+      <lex comment="good" lid="Id2">Trane was founded in La Crosse, Wisconsin, on 01-01-1913.</lex>
+      <lex comment="good" lid="Id3">Trane was founded in La Crosse, Wisconsin on January 1st, 1913.</lex>
+    </entry>
+    <entry category="Company" eid="Id11" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Trane | location | Swords,_Dublin</otriple>
+        <otriple>Trane | location | Ireland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | location | Swords,_Dublin</mtriple>
+        <mtriple>Trane | location | Ireland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane is located in Swords, Dublin, Ireland.</lex>
+      <lex comment="good" lid="Id2">Trane is located in Swords, Dublin, which is in Ireland.</lex>
+      <lex comment="good" lid="Id3">The location of Trane is in Swords, Dublin, Ireland.</lex>
+    </entry>
+  </entries>
+</benchmark>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<benchmark>
+  <entries>
+    <entry category="Company" eid="Id1" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>AmeriGas | operatingIncome | 3.807E8</otriple>
+        <otriple>AmeriGas | industry | Energy_industry</otriple>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AmeriGas | operatingIncome | 3.807E8</otriple>
+        <otriple>AmeriGas | industry | Energy_industry</otriple>
+        <otriple>AmeriGas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | operatingIncome | 380700000</mtriple>
+        <mtriple>AmeriGas | industry | Energy_industry</mtriple>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas, a United States company in the energy industry, has an operating income of $380,700,000.</lex>
+      <lex comment="good" lid="Id2">AmeriGas is an energy company working in the United States with an operating income of 380700000.</lex>
+      <lex comment="good" lid="Id3">AmeriGas, a United States company in the energy industry, has earned 380,700,000 in operating income.</lex>
+    </entry>
+    <entry category="Company" eid="Id2" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Chinabank | foundationPlace | Manila</otriple>
+        <otriple>Chinabank | location | Philippines</otriple>
+        <otriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundationPlace | Manila</mtriple>
+        <mtriple>Chinabank | location | Philippines</mtriple>
+        <mtriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank was founded in Manila in the Philippines (under the Insular Government) and remains located there.</lex>
+      <lex comment="good" lid="Id2">Chinabank was founded in Manila, during the Insular Government period, and is still located in the Philippines.</lex>
+      <lex comment="good" lid="Id3">Founded in Manila in the Philippines, Chinabank's foundation place is the Insular Government of the Philippine Islands.</lex>
+    </entry>
+    <entry category="Company" eid="Id3" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>GMA_New_Media | industry | Entertainment</otriple>
+        <otriple>GMA_New_Media | type | Media_company</otriple>
+        <otriple>GMA_New_Media | product | World_Wide_Web</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | industry | Entertainment</mtriple>
+        <mtriple>GMA_New_Media | type | Media_company</mtriple>
+        <mtriple>GMA_New_Media | product | World_Wide_Web</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is an entertainment industry media company offering services concerning the World Wide Web.</lex>
+      <lex comment="good" lid="Id2">GMA New Media, a web-services producing media company, offers applications in the entertainment industry.</lex>
+      <lex comment="good" lid="Id3">GMA New Media, Inc. is a media company and GMA New Media is in the entertainment industry that makes web sites.</lex>
+    </entry>
+    <entry category="Company" eid="Id4" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>GMA_New_Media | industry | Mass_Media</otriple>
+        <otriple>GMA_New_Media | location | Philippines</otriple>
+        <otriple>GMA_New_Media | location | Quezon_City</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | industry | Mass_Media</mtriple>
+        <mtriple>GMA_New_Media | location | Philippines</mtriple>
+        <mtriple>GMA_New_Media | location | Quezon_City</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media, located in the Filipino city of Quezon, is in the mass media industry.</lex>
+      <lex comment="good" lid="Id2">The mass media industry company of GMA New Media has its headquarters in Quezon City which is located in the Philippines.</lex>
+      <lex comment="good" lid="Id3">GMA New Media is a mass media company located in Quezon City, Philippines.</lex>
+    </entry>
+    <entry category="Company" eid="Id5" shape="(X (X) (X (X)))" shape_type="mixed" size="3">
+      <originaltripleset>
+        <otriple>GMA_New_Media | parentCompany | GMA_Network_(company)</otriple>
+        <otriple>GMA_Network_(company) | type | Public_company</otriple>
+        <otriple>GMA_New_Media | keyPerson | Felipe_Gozon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | parentCompany | GMA_Network_(company)</mtriple>
+        <mtriple>GMA_Network_(company) | type | Public_company</mtriple>
+        <mtriple>GMA_New_Media | keyPerson | Felipe_Gozon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Felipe Gozon is the key person of GMA New Media which is a subsidiary of GMA Network, a public company.</lex>
+      <lex comment="good" lid="Id2">Felipe Gozon is a key person in GMA New Media whose parent company is GMA Network, a public company.</lex>
+      <lex comment="good" lid="Id3">GMA Network is a public company and also the parent company of GMA New Media where Felipe Gozon is the key person.</lex>
+    </entry>
+    <entry category="Company" eid="Id6" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+        <otriple>Hypermarcas | type | S.A._(corporation)</otriple>
+        <otriple>Hypermarcas | netIncome | 1.086E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+        <mtriple>Hypermarcas | type | S.A._(corporation)</mtriple>
+        <mtriple>Hypermarcas | netIncome | 108600000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas was founded Jan. 1, 2001 as a type of S.A. corporation that has a current net income of 108,600,000.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas, a type of S.A. (corporation), has a net income of 108,600,000, and was founded on January 1, 2001.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is an S.A. corporation founded on January 1, 2001, and has a net income of $108,600,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id7" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Hypermarcas | netIncome | 1.086E8</otriple>
+        <otriple>Hypermarcas | revenue | 1.8E9</otriple>
+        <otriple>Hypermarcas | numberOfEmployees | 10252</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | netIncome | 108600000</mtriple>
+        <mtriple>Hypermarcas | revenue | 1800000000</mtriple>
+        <mtriple>Hypermarcas | numberOfEmployees | 10252</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas's revenue is $1,800,000,000, has a net income of $108,600,000, and employs 10,252 people.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas has a net income of 108,600,000, earning 1800000000 yearly and employs 10252 people.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas has a net income of $108,600,000, yearly income of $1,800,000,000 and employs 10,252.</lex>
+    </entry>
+    <entry category="Company" eid="Id8" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Hypermarcas | subsidiary | Mantecorp</otriple>
+        <otriple>Hypermarcas | location | São_Paulo</otriple>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | subsidiary | Mantecorp</mtriple>
+        <mtriple>Hypermarcas | location | São_Paulo</mtriple>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas, the parent group of Mantecorp, was founded on January 1, 2001 in São Paulo.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas was founded on January 1, 2001, is located in Sao Paulo and has a subsidiary called Mantecorp.</lex>
+      <lex comment="good" lid="Id3">Mantecorp is a subsidiary of Hypermarcas that was founded on 1-1-2001 and is located in Sao Paulo.</lex>
+    </entry>
+    <entry category="Company" eid="Id9" shape="(X (X) (X (X)))" shape_type="mixed" size="3">
+      <originaltripleset>
+        <otriple>Trane | foundationPlace | La_Crosse,_Wisconsin</otriple>
+        <otriple>La_Crosse,_Wisconsin | areaTotal | 58.37833200697344</otriple>
+        <otriple>Trane | type | Subsidiary</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundationPlace | La_Crosse,_Wisconsin</mtriple>
+        <mtriple>La_Crosse,_Wisconsin | areaTotal | 58.38</mtriple>
+        <mtriple>Trane | type | Subsidiary</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane is a subsidiary company founded in La Crosse, Wisconsin State, a city that has a total area of 58.38.</lex>
+      <lex comment="good" lid="Id2">The Trane company is a subsidiary founded in La Crosse, Wisconsin, which has a total area of 58.38.</lex>
+      <lex comment="good" lid="Id3">Trane, a subsidiary, was founded in La Crosse, Wisconsin that has a total area of 58.38 square kilometers.</lex>
+    </entry>
+    <entry category="Company" eid="Id10" shape="(X (X) (X (X)))" shape_type="mixed" size="3">
+      <originaltripleset>
+        <otriple>Trane | location | Ireland</otriple>
+        <otriple>Trane | foundationPlace | La_Crosse,_Wisconsin</otriple>
+        <otriple>Ireland | location | Europe</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | location | Ireland</mtriple>
+        <mtriple>Trane | foundationPlace | La_Crosse,_Wisconsin</mtriple>
+        <mtriple>Ireland | location | Europe</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The company Trane was founded in La Crosse, Wisconsin and is in Ireland in Europe.</lex>
+      <lex comment="good" lid="Id2">Trane was founded in La Crosse, Wisconsin, but is now located in the European nation of Ireland.</lex>
+      <lex comment="good" lid="Id3">Trane, founded in La Crosse, Wisconsin, is located in Europe in the country Ireland.</lex>
+    </entry>
+    <entry category="Company" eid="Id11" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Trane | revenue | 1.0264E10</otriple>
+        <otriple>Trane | netIncome | 5.563E8</otriple>
+        <otriple>Trane | numberOfEmployees | 29000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | revenue | 10264000000</mtriple>
+        <mtriple>Trane | netIncome | 556300000</mtriple>
+        <mtriple>Trane | numberOfEmployees | 29000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane has 29,000 employees, its net income is $556,300,000 and revenue is $10,264,000,000.</lex>
+      <lex comment="good" lid="Id2">Trane has a net income of $556,300,000 and a total revenue of 10264000000, earned by its 29,000 employees.</lex>
+      <lex comment="good" lid="Id3">Trane, which has a total of 290000 employees, has a revenue of $10,264,000,000 and a net income of approximately $556 million.</lex>
+    </entry>
+  </entries>
+</benchmark>

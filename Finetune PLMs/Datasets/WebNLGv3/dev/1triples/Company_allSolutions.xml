@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<benchmark>
+  <entries>
+    <entry category="Company" eid="Id1" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Brazil | leader | Cármen_Lúcia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Brazil | leader | Cármen_Lúcia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cármen Lúcia is the leader of Brazil.</lex>
+      <lex comment="good" lid="Id2">The leader of Brazil is Cármen Lúcia.</lex>
+      <lex comment="good" lid="Id3">The name of the leader of Brazil is Cármen Lúcia.</lex>
+    </entry>
+    <entry category="Company" eid="Id2" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Chinabank | netIncome | 1.51E10</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | netIncome | 15100000000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank has a net income of 15,100,000,000.</lex>
+      <lex comment="good" lid="Id2">Chinabank’s net income has been 15100000000 currently.</lex>
+      <lex comment="good" lid="Id3">The net income of Chinabank is 15,100,000,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id3" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | keyPerson | Felipe_Gozon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | keyPerson | Felipe_Gozon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Felipe Gozon is the key person of GMA New Media.</lex>
+      <lex comment="good" lid="Id2">Felipe Gozon is a key person in GMA New Media.</lex>
+      <lex comment="good" lid="Id3">The key person on GMA New Media is Felipe Gozon.</lex>
+    </entry>
+    <entry category="Company" eid="Id4" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | product | World_Wide_Web</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | product | World_Wide_Web</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media produces web services.</lex>
+      <lex comment="good" lid="Id2">GMA New Media offers services concerning the World Wide Web.</lex>
+      <lex comment="good" lid="Id3">GMA New Media makes web sites.</lex>
+      <lex comment="good" lid="Id4">GMA New Media is a company that offers products related to the World Wide Web.</lex>
+      <lex comment="good" lid="Id5">GMA New Media produces websites.</lex>
+    </entry>
+    <entry category="Company" eid="Id5" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | type | Media_company</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | type | Media_company</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media, Inc. is a media company.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is a media company.</lex>
+    </entry>
+    <entry category="Company" eid="Id6" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>La_Crosse,_Wisconsin | areaTotal | 58.37833200697344</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>La_Crosse,_Wisconsin | areaTotal | 58.38</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>La_Crosse,_Wisconsin | areaTotal | 58.38</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">La Crosse is a city in the U.S. state of Wisconsin, and the city has a total area of 58.38.</lex>
+      <lex comment="good" lid="Id2">The total area of La Crosse Wisconsin is 58.38 square kilometers.</lex>
+      <lex comment="good" lid="Id3">The total area of LaCrosse Wisconsin is 58.38.</lex>
+      <lex comment="good" lid="Id4">La Crosse, Wisconsin has a total area of 58.38.</lex>
+    </entry>
+    <entry category="Company" eid="Id7" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippine_Entertainment_Portal | parentCompany | GMA_New_Media</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippine_Entertainment_Portal | parentCompany | GMA_New_Media</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is the parent company of Philippine Entertainment Portal.</lex>
+      <lex comment="good" lid="Id2">Philippine Entertainment Portal is a branch of GMA New Media.</lex>
+      <lex comment="good" lid="Id3">Philippine Entertainment Portal's parent company is GMA New Media.</lex>
+    </entry>
+    <entry category="Company" eid="Id8" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | ethnicGroup | Pangasinense_people</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | ethnicGroup | Pangasinense_people</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Pangasinense people are the ethnic group of the Philippines.</lex>
+      <lex comment="good" lid="Id2">The ethnic group in the Philippines is called the Pangasinense people.</lex>
+      <lex comment="good" lid="Id3">The ethnic group of the Philippines is Pangasinense.</lex>
+      <lex comment="good" lid="Id4">The Pangasinense people are an ethnic group native to the Philippines.</lex>
+    </entry>
+    <entry category="Company" eid="Id9" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | leader | Rodrigo_Duterte</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | leader | Rodrigo_Duterte</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Rodrigo Duterte is the leader's name of the Philippines.</lex>
+      <lex comment="good" lid="Id2">Rodrigo Duterte is the leader of the Philippines.</lex>
+      <lex comment="good" lid="Id3">Rodrigo Duterte is the leader of the Philippines .</lex>
+      <lex comment="good" lid="Id4">The leader of the Philippines is named Rodrigo Duterte.</lex>
+    </entry>
+    <entry category="Company" eid="Id10" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Swords,_Dublin | isPartOf | Dublin_(European_Parliament_constituency)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Swords,_Dublin | isPartOf | Dublin_(European_Parliament_constituency)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Swords, Dublin is part of the Dublin European Parliament constituency.</lex>
+      <lex comment="good" lid="Id2">Swords belongs to the Dublin constituency of the European Parliament.</lex>
+      <lex comment="good" lid="Id3">Swords is a part of the Dublin European Parliamentary constituency.</lex>
+    </entry>
+    <entry category="Company" eid="Id11" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Swords,_Dublin | leaderTitle | "County Manager"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Swords,_Dublin | leaderTitle | "County Manager"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The title of the leader of Swords, Dublin is County Manager.</lex>
+      <lex comment="good" lid="Id2">The County Manager is the leader of Swords, Dublin.</lex>
+      <lex comment="good" lid="Id3">The leader title of Swords, Dublin is County Manager.</lex>
+      <lex comment="good" lid="Id4">Swords, Dublin is led by a county manager.</lex>
+    </entry>
+    <entry category="Company" eid="Id12" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | longName | United States of America</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | longName | United States of America</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The full name of the United States is the United States of America.</lex>
+      <lex comment="good" lid="Id2">The long name of the United States is the United States of America.</lex>
+      <lex comment="good" lid="Id3">The long name of the United States is the United States of America .</lex>
+    </entry>
+  </entries>
+</benchmark>

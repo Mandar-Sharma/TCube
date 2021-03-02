@@ -1,0 +1,962 @@
+<?xml version='1.0' encoding='utf-8'?>
+<benchmark>
+  <entries>
+    <entry category="Company" eid="Id1" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>AmeriGas | country | United_States</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>AmeriGas | locationCountry | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas works in the country of the United States.</lex>
+      <lex comment="good" lid="Id2">AmeriGas's home country is the United States.</lex>
+      <lex comment="good" lid="Id3">AmeriGas is working in the United States.</lex>
+      <lex comment="good" lid="Id4">AmeriGas is located in the country of the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id2" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>AmeriGas | foundingYear | 1959-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | foundingDate | 1959-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas was founded on 01-01-1959.</lex>
+      <lex comment="good" lid="Id2">AmeriGas was founded on January 1, 1959.</lex>
+      <lex comment="good" lid="Id3">AmeriGas was founded on 1959-01-01.</lex>
+    </entry>
+    <entry category="Company" eid="Id3" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>AmeriGas | industry | Energy_industry</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | industry | Energy_industry</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is in the energy industry.</lex>
+      <lex comment="good" lid="Id2">AmeriGas is a company in the energy industry.</lex>
+      <lex comment="good" lid="Id3">AmeriGas's industry is classified as the energy industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id4" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>AmeriGas | locationCity | King_of_Prussia,_Pennsylvania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | city | King_of_Prussia,_Pennsylvania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas is located in King of Prussia, Pennsylvania.</lex>
+      <lex comment="good" lid="Id2">AmeriGas's location is the city of King of Prussia, Pennsylvania.</lex>
+    </entry>
+    <entry category="Company" eid="Id5" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>AmeriGas | netIncome | 2.112E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | netIncome | 211200000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The net income of AmeriGas is 211200000.</lex>
+      <lex comment="good" lid="Id2">AmeriGas has a net income of $211,200,000.</lex>
+      <lex comment="good" lid="Id3">AmeriGas earns 211200000 of net income.</lex>
+      <lex comment="good" lid="Id4">AmeriGas has a net income of 211200000.</lex>
+    </entry>
+    <entry category="Company" eid="Id6" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>AmeriGas | operatingIncome | 3.807E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | operatingIncome | 380700000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas has an operating income of $380,700,000.</lex>
+      <lex comment="good" lid="Id2">The operating income earned by AmeriGas is 380700000.</lex>
+      <lex comment="good" lid="Id3">The operating income of AmeriGas is 380700000.</lex>
+    </entry>
+    <entry category="Company" eid="Id7" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>AmeriGas | regionServed | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AmeriGas | regionServed | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AmeriGas provides its services in the United States.</lex>
+      <lex comment="good" lid="Id2">AmeriGas serves all regions of the United States.</lex>
+      <lex comment="good" lid="Id3">AmeriGas serves the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id8" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Brazil | areaTotal | 8514840000000.0</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Brazil | areaTotal | 8514837.141576303</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Brazil | areaTotal | 8514837.14  (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total area of Brazil is 8514837.14 square kilometres.</lex>
+      <lex comment="good" lid="Id2">Brazil has a total area of 8514837.14 square kilometres.</lex>
+      <lex comment="good" lid="Id3">The total area of Brazil is 8514837.14 (square kilometres).</lex>
+      <lex comment="good" lid="Id4">Brazil has a total area of 8514837.14 (square kilometers).</lex>
+    </entry>
+    <entry category="Company" eid="Id9" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Brazil | leader | Michel_Temer</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Brazil | leader | Michel_Temer</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Michel Temer is the leader of Brazil.</lex>
+      <lex comment="good" lid="Id2">The leader of Brazil is named Michel Temer.</lex>
+      <lex comment="good" lid="Id3">Michel Temer was the president of Brazil.</lex>
+      <lex comment="good" lid="Id4">The name of the leader of Brazil is Michel Temer.</lex>
+    </entry>
+    <entry category="Company" eid="Id10" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Brazil | leaderTitle | "President of the Supreme Federal Court"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Brazil | leaderTitle | "President of the Supreme Federal Court"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Brazil's leader has the title of President of the Supreme Federal Court.</lex>
+      <lex comment="good" lid="Id2">President of the Supreme Federal Court is one of the leaders in Brazil.</lex>
+      <lex comment="good" lid="Id3">President of the Supreme Federal Court is a leader title in Brazil.</lex>
+      <lex comment="good" lid="Id4">One of the leaders in Brazil has the title of President of the Supreme Federal Court.</lex>
+    </entry>
+    <entry category="Company" eid="Id11" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Brazil | populationDensity | 23.8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Brazil | populationDensity | 23.8</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Brazil has a population density of 23.8.</lex>
+      <lex comment="good" lid="Id2">The population density of Brazil is 23.8 per square kilometer.</lex>
+      <lex comment="good" lid="Id3">The population density in Brazil is 23.8.</lex>
+      <lex comment="good" lid="Id4">The population density of Brazil is 23.8.</lex>
+    </entry>
+    <entry category="Company" eid="Id12" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundationPlace | Insular_Government_of_the_Philippine_Islands</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank was founded in the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id2">Chinabank's foundation place is the Insular Government of the Philippine Islands.</lex>
+      <lex comment="good" lid="Id3">Chinabank's founding place was the Insular Government of the Philippine Islands.</lex>
+    </entry>
+    <entry category="Company" eid="Id13" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Chinabank | foundationPlace | Manila</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundationPlace | Manila</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Manila is Chinabank’s founding place.</lex>
+      <lex comment="good" lid="Id2">Manila is the founding place of Chinabank.</lex>
+      <lex comment="good" lid="Id3">Chinabank was founded in Manila.</lex>
+    </entry>
+    <entry category="Company" eid="Id14" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Chinabank | foundingYear | 1920-01-01</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Chinabank | foundingDate | 1920-08-16</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | foundingDate | 1920-08-16</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank was founded on 08-16-1920.</lex>
+      <lex comment="good" lid="Id2">Chinabank was founded on 1920-08-16.</lex>
+      <lex comment="good" lid="Id3">Chinabank was founded on the 16th of August, 1920.</lex>
+      <lex comment="good" lid="Id4">Chinabank was founded on 08/16/1920.</lex>
+    </entry>
+    <entry category="Company" eid="Id15" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Chinabank | numberOfEmployees | 5594</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | numberOfEmployees | 5594</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank has 5594 employees.</lex>
+      <lex comment="good" lid="Id2">The number of employees working at Chinabank is 5594.</lex>
+      <lex comment="good" lid="Id3">Chinabank has 5594 workers.</lex>
+      <lex comment="good" lid="Id4">Chinabank employs 5,594 employees.</lex>
+    </entry>
+    <entry category="Company" eid="Id16" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Chinabank | numberOfLocations | 295</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Chinabank | numberOfLocations | 505</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | numberOfLocations | 295</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank has 295 locations.</lex>
+      <lex comment="good" lid="Id2">Chinabank has 295 branches.</lex>
+      <lex comment="good" lid="Id3">Chinabank has 295 banking centers.</lex>
+    </entry>
+    <entry category="Company" eid="Id17" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Chinabank | service | Banking</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | service | Banking</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank offers banking service.</lex>
+      <lex comment="good" lid="Id2">Chinabank's service is banking.</lex>
+      <lex comment="good" lid="Id3">Chinabank provides banking services to customers.</lex>
+      <lex comment="good" lid="Id4">Chinabank is a company that offers Banking services.</lex>
+    </entry>
+    <entry category="Company" eid="Id18" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Chinabank | type | Public_company</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chinabank | type | Public_company</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chinabank is a publicly traded company.</lex>
+      <lex comment="good" lid="Id2">Chinabank is a public company.</lex>
+    </entry>
+    <entry category="Company" eid="Id19" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Felipe_Gozon | alias | "Atty. Felipe L. Gozon, FLG"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Felipe_Gozon | alternativeName | "Atty. Felipe L. Gozon, FLG"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Felipe Gozon is also known by Attorney Felipe L. Gozon, FLG.</lex>
+      <lex comment="good" lid="Id2">Felipe Gozon's alternative name is Atty. Felipe L. Gozon, FLG.</lex>
+      <lex comment="good" lid="Id3">Felipe Gozon is also known as Atty. Felipe L. Gozon, FLG.</lex>
+    </entry>
+    <entry category="Company" eid="Id20" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Felipe_Gozon | birthDate | 1939-12-08</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Felipe_Gozon | birthDate | 1939-12-08</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Felipe Gozon's birthdate is 1939-12-08.</lex>
+      <lex comment="good" lid="Id2">Felipe Gozon was born on December 8, 1939.</lex>
+      <lex comment="good" lid="Id3">Felipe Gozon was born December 8, 1939.</lex>
+    </entry>
+    <entry category="Company" eid="Id21" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_Network_(company) | keyPerson | Felipe_Gozon</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_Network_(company) | keyPerson | Felipe_Gozon</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA Network is a company and its key person is Felipe Gozon.</lex>
+      <lex comment="good" lid="Id2">Felipe Gozon is a key person in the GMA Network company.</lex>
+      <lex comment="good" lid="Id3">GMA Network’s boss is Felipe Gozon.</lex>
+      <lex comment="good" lid="Id4">Felipe Gozon is the key person of GMA Network.</lex>
+    </entry>
+    <entry category="Company" eid="Id22" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_Network_(company) | locationCity | Diliman</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_Network_(company) | city | Diliman</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA Network is a company located in the city of Diliman.</lex>
+      <lex comment="good" lid="Id2">GMA Network is a company based in Diliman.</lex>
+      <lex comment="good" lid="Id3">GMA Network is located in Diliman.</lex>
+    </entry>
+    <entry category="Company" eid="Id23" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_Network_Center | cost | 4.6E7</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_Network_Center | cost | 46000000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The GMA Network Center costs 46000000.</lex>
+      <lex comment="good" lid="Id2">GMA Network Center costs $46,000,000.</lex>
+      <lex comment="good" lid="Id3">GMA Network Center costs 46,000,000.</lex>
+      <lex comment="good" lid="Id4">The GMA Network Center is worth $46,000,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id24" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | foundingYear | 2000-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | foundingDate | 2000-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media was founded on 01/01/2000.</lex>
+      <lex comment="good" lid="Id2">GMA New Media was founded on 01-01-2000.</lex>
+      <lex comment="good" lid="Id3">GMA New Media was founded on January 1, 2000.</lex>
+      <lex comment="good" lid="Id4">The founding date of GMA New Media is 01-01-2000.</lex>
+    </entry>
+    <entry category="Company" eid="Id25" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | industry | Entertainment</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | industry | Entertainment</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media offers applications in the entertainment industry.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is an entertainment industry.</lex>
+      <lex comment="good" lid="Id3">GMA New Media is in the entertainment industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id26" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | industry | Mass_Media</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | industry | Mass_Media</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is in the mass media industry.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is a mass media industry.</lex>
+      <lex comment="good" lid="Id3">GMA New Media's industry is mass media.</lex>
+    </entry>
+    <entry category="Company" eid="Id27" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | location | Philippines</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | location | Philippines</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is located in the Philippines.</lex>
+    </entry>
+    <entry category="Company" eid="Id28" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | location | Quezon_City</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | location | Quezon_City</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media is located in the city of Quezon.</lex>
+      <lex comment="good" lid="Id2">GMA New Media is located in Quezon City.</lex>
+      <lex comment="good" lid="Id3">GMA New Media headquarters are located in Quezon City.</lex>
+      <lex comment="good" lid="Id4">The location of GMA New Media is Quezon City.</lex>
+    </entry>
+    <entry category="Company" eid="Id29" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | product | Mobile_Applications</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | product | Mobile_Applications</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">GMA New Media makes mobile apps.</lex>
+      <lex comment="good" lid="Id2">GMA New Media makes mobile applications.</lex>
+      <lex comment="good" lid="Id3">GMA New Media is a company that offers products such as mobile applications.</lex>
+      <lex comment="good" lid="Id4">GMA New Media produces mobile applications.</lex>
+    </entry>
+    <entry category="Company" eid="Id30" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | subsidiary | Digify,_Inc.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | subsidiary | Digify,_Inc.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Digify Inc. is a subsidiary of GMA New Media.</lex>
+      <lex comment="good" lid="Id2">Digify Inc is a subsidiary of GMA New Media.</lex>
+      <lex comment="good" lid="Id3">GMA New Media’s subsidiary is Digify, Inc.</lex>
+      <lex comment="good" lid="Id4">Digify, Inc. is a subsidiary of GMA New Media.</lex>
+    </entry>
+    <entry category="Company" eid="Id31" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>GMA_New_Media | subsidiary | Philippine_Entertainment_Portal</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | subsidiary | Philippine_Entertainment_Portal</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Philippine Entertainment Portal, Inc is a subsidiary of GMA New Media.</lex>
+      <lex comment="good" lid="Id2">GMA New Media's subsidiary is Philippine Entertainment Portal.</lex>
+      <lex comment="good" lid="Id3">Philippine Entertainment Portal is a subsidiary of GMA New Media.</lex>
+    </entry>
+    <entry category="Company" eid="Id32" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is the company founded on January 1, 2001.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas was founded on January 1, 2001.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas was founded on 2001-01-01.</lex>
+    </entry>
+    <entry category="Company" eid="Id33" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | industry | Pharmaceuticals</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | industry | Pharmaceuticals</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is in the pharmaceuticals industry.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is a pharmaceutical company.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is in the pharmaceutical industry.</lex>
+    </entry>
+    <entry category="Company" eid="Id34" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | location | Brazil</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | location | Brazil</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is located in Brazil.</lex>
+    </entry>
+    <entry category="Company" eid="Id35" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | location | São_Paulo</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | location | São_Paulo</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is located in São Paulo.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is located in Sao Paulo.</lex>
+    </entry>
+    <entry category="Company" eid="Id36" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | netIncome | 1.086E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | netIncome | 108600000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas has a net income of 108,600,000.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas had a net income of $108,600,000.</lex>
+      <lex comment="good" lid="Id3">The net income of Hypermarcas is 108,600,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id37" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | product | Cosmetics</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | product | Cosmetics</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas produces cosmetics.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas also sells cosmetics.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas also makes cosmetics products.</lex>
+      <lex comment="good" lid="Id4">Hypermarcas makes cosmetic products.</lex>
+    </entry>
+    <entry category="Company" eid="Id38" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | product | Healthcare</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | product | Healthcare</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas sells healthcare products.</lex>
+      <lex comment="good" lid="Id2">Hypermarcas makes healthcare products.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas produces healthcare products.</lex>
+    </entry>
+    <entry category="Company" eid="Id39" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | subsidiary | Mantecorp</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | subsidiary | Mantecorp</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas has a subsidiary called Mantecorp.</lex>
+      <lex comment="good" lid="Id2">Mantecorp is a subsidiary of Hypermarcas.</lex>
+    </entry>
+    <entry category="Company" eid="Id40" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Hypermarcas | type | S.A._(corporation)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | type | S.A._(corporation)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Hypermarcas is a type of S.A (corporation).</lex>
+      <lex comment="good" lid="Id2">Hypermarcas is an S.A. corporation.</lex>
+      <lex comment="good" lid="Id3">Hypermarcas is a type of S.A. corporation.</lex>
+      <lex comment="good" lid="Id4">Hypermarcas is an S.A. company.</lex>
+    </entry>
+    <entry category="Company" eid="Id41" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Insular_Government_of_the_Philippine_Islands | foundingDate | 1901-07-01</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Insular_Government_of_the_Philippine_Islands | foundingYear | 1901-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Insular_Government_of_the_Philippine_Islands | foundingDate | 1901-07-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Insular Government of the Philippine Islands was founded on 1901-07-01.</lex>
+      <lex comment="good" lid="Id2">The Insular Government of the Philippine Islands was established on July 1, 1901.</lex>
+      <lex comment="good" lid="Id3">The founding date of the Insular Government of the Philippine Islands was 07-01-1901.</lex>
+      <lex comment="good" lid="Id4">The Insular Government of the Philippine Islands was founded on July 1, 1901.</lex>
+    </entry>
+    <entry category="Company" eid="Id42" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Ireland | location | Europe</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ireland | location | Europe</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ireland is located in Europe.</lex>
+      <lex comment="good" lid="Id2">Ireland is a country in Europe.</lex>
+    </entry>
+    <entry category="Company" eid="Id43" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>King_of_Prussia,_Pennsylvania | timeZone | North_American_Eastern_Time_Zone</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>King_of_Prussia,_Pennsylvania | timeZone | North_American_Eastern_Time_Zone</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">King of Prussia, Pennsylvania is in the North American Eastern time zone.</lex>
+      <lex comment="good" lid="Id2">The time zone for King of Prussia, Pennsylvania is the North American Eastern Time Zone.</lex>
+      <lex comment="good" lid="Id3">King of Prussia, Pennsylvania is in the North American Eastern Time Zone.</lex>
+    </entry>
+    <entry category="Company" eid="Id44" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>King_of_Prussia,_Pennsylvania | type | Census-designated_place</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>King_of_Prussia,_Pennsylvania | type | Census-designated_place</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">King of Prussia, Pennsylvania is a census-designated place.</lex>
+      <lex comment="good" lid="Id2">King of Prussia in Pennsylvania is a census-designated place.</lex>
+    </entry>
+    <entry category="Company" eid="Id45" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>La_Crosse,_Wisconsin | isPartOf | Wisconsin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>La_Crosse,_Wisconsin | isPartOf | Wisconsin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">La Crosse is located in Wisconsin.</lex>
+      <lex comment="good" lid="Id2">La Crosse Wisconsin is part of Wisconsin.</lex>
+      <lex comment="good" lid="Id3">La Crosse is a city in the U.S. state of Wisconsin.</lex>
+      <lex comment="good" lid="Id4">La Crosse is part of Wisconsin.</lex>
+    </entry>
+    <entry category="Company" eid="Id46" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Manila | leaderTitle | "City Council"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Manila | leaderTitle | "City Council"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Manila is led by the City Council.</lex>
+      <lex comment="good" lid="Id2">Manila is ruled by the City Council.</lex>
+      <lex comment="good" lid="Id3">Manila is governed by the City Council.</lex>
+    </entry>
+    <entry category="Company" eid="Id47" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Manila | type | Capital_city</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Manila | type | Capital_city</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Manila is the capital.</lex>
+      <lex comment="good" lid="Id2">Manila is the capital city.</lex>
+      <lex comment="good" lid="Id3">Manila is a capital city.</lex>
+    </entry>
+    <entry category="Company" eid="Id48" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippine_Entertainment_Portal | parentCompany | Summit_Media</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippine_Entertainment_Portal | parentCompany | Summit_Media</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Philippine Entertainment Portal's parent company is Summit Media.</lex>
+      <lex comment="good" lid="Id2">Philippine Entertainment Portal is a subsidiary of the Summit Media company.</lex>
+      <lex comment="good" lid="Id3">Summit Media is the parent company of Philippine Entertainment Portal.</lex>
+    </entry>
+    <entry category="Company" eid="Id49" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | capital | Manila</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | capital | Manila</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Manila is the capital city of the Philippines.</lex>
+      <lex comment="good" lid="Id2">Manila is the capital of the Philippines.</lex>
+      <lex comment="good" lid="Id3">The capital of the Philippines is Manila.</lex>
+    </entry>
+    <entry category="Company" eid="Id50" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | foundingDate | 1898-06-12</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | foundingDate | 1898-06-12</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Philippines were founded on 12/06/1898.</lex>
+      <lex comment="good" lid="Id2">The Philippines were founded on 1898-06-12.</lex>
+      <lex comment="good" lid="Id3">The founding date of the Philippines was 6-12-1898.</lex>
+    </entry>
+    <entry category="Company" eid="Id51" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | leader | Aquilino_Pimentel_III</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | leader | Aquilino_Pimentel_III</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Aquilino Pimentel III is the leader of Philippines.</lex>
+      <lex comment="good" lid="Id2">The leader of the Philippines is Aquilino Pimentel III.</lex>
+      <lex comment="good" lid="Id3">Aquilino Pimentel III is a Filipino leader.</lex>
+    </entry>
+    <entry category="Company" eid="Id52" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | leader | Maria_Lourdes_Sereno</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | leader | Maria_Lourdes_Sereno</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Maria Lourdes Sereno is the leader of the Philippines.</lex>
+      <lex comment="good" lid="Id2">Filipina leader's name: Maria Lourdes Sereno.</lex>
+      <lex comment="good" lid="Id3">The leader of the Philippines is Maria Lourdes Sereno.</lex>
+      <lex comment="good" lid="Id4">Maria Lourdes Sereno is a Filipina leader.</lex>
+    </entry>
+    <entry category="Company" eid="Id53" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | leader | Pantaleon_Alvarez</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | leader | Pantaleon_Alvarez</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The name of the leader of the Philippines is Pantaleon Alvarez.</lex>
+      <lex comment="good" lid="Id2">Pantaleon Alvarez is a political leader in the Philippines.</lex>
+      <lex comment="good" lid="Id3">Pantaleon Alvarez is a Filipino leader.</lex>
+      <lex comment="good" lid="Id4">The leader of the Philippines is Pantaleon Alvarez.</lex>
+    </entry>
+    <entry category="Company" eid="Id54" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | leaderTitle | President</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | leaderTitle | President</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The President is the leader title of the Philippines.</lex>
+      <lex comment="good" lid="Id2">The leader of the Philippines has the title of President.</lex>
+      <lex comment="good" lid="Id3">The title of the leader of the Philippines is president.</lex>
+    </entry>
+    <entry category="Company" eid="Id55" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | motto | "Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | motto | "Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The motto of the Philippines is Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa.</lex>
+      <lex comment="good" lid="Id2">"Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa" is a motto of the Philippines.</lex>
+      <lex comment="good" lid="Id3">The motto of the Philippines is "Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa".</lex>
+    </entry>
+    <entry category="Company" eid="Id56" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | officialLanguage | Filipino_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | officialLanguage | Filipino_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Filipino language is the official language in the Philippines.</lex>
+      <lex comment="good" lid="Id2">The official language of the Philippines is Filipino.</lex>
+      <lex comment="good" lid="Id3">The official language of the Philippines is the Filipino language.</lex>
+      <lex comment="good" lid="Id4">Filipino Language is the official language of the Philippines.</lex>
+      <lex comment="good" lid="Id5">The official language of the Philippines is Filipino language.</lex>
+    </entry>
+    <entry category="Company" eid="Id57" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | officialLanguage | Philippine_English</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | officialLanguage | Philippine_English</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Philippine English is the official language of the Philippines.</lex>
+      <lex comment="good" lid="Id2">The official language of the Philippines is Philippine English.</lex>
+    </entry>
+    <entry category="Company" eid="Id58" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Philippines | timeZone | Philippine_Standard_Time</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | timeZone | Philippine_Standard_Time</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The time zone used by the Philippines is Philippine Standard time.</lex>
+      <lex comment="good" lid="Id2">The Philippines' time zone is Philippine Standard Time.</lex>
+      <lex comment="good" lid="Id3">The Philippines is in the Philippine Standard Time Zone.</lex>
+      <lex comment="good" lid="Id4">The time zone for the Philippines is Philippine Standard Time.</lex>
+    </entry>
+    <entry category="Company" eid="Id59" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Quezon_City | areaTotal | 165330000.0</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Quezon_City | areaTotal | 165.33</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Quezon_City | areaTotal | 165.33</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Quezon City has a total area of 165.33.</lex>
+      <lex comment="good" lid="Id2">The total area of Quezon City is 165.33.</lex>
+    </entry>
+    <entry category="Company" eid="Id60" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Quezon_City | leaderParty | Liberal_Party_(Philippines)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Quezon_City | leaderParty | Liberal_Party_(Philippines)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader party of Quezon City is the Liberal Party.</lex>
+      <lex comment="good" lid="Id2">The leader party for Quezon City is the Liberal Party (Philippines).</lex>
+      <lex comment="good" lid="Id3">The leader Party of Quezon City is the Liberal Party of the Philippines.</lex>
+      <lex comment="good" lid="Id4">The leader party of Quezon City in the Philippines is the Liberal Party.</lex>
+    </entry>
+    <entry category="Company" eid="Id61" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Quezon_City | type | Cities_of_the_Philippines</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Quezon_City | type | Cities_of_the_Philippines</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Quezon City is one of the cities in the Philippines.</lex>
+      <lex comment="good" lid="Id2">Quezon City is a city in the Philippines.</lex>
+      <lex comment="good" lid="Id3">Quezon City is one of the cities of the Philippines.</lex>
+    </entry>
+    <entry category="Company" eid="Id62" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Swords,_Dublin | areaUrban | 11.35</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Swords,_Dublin | areaUrban | 11.35</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Swords, Dublin has an urban area of 11.35 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The urban area of Swords Dublin is 11.35.</lex>
+      <lex comment="good" lid="Id3">The urban area of Swords, Dublin is 11.35.</lex>
+      <lex comment="good" lid="Id4">The urban area of the city of Swords, Dublin is 11.35.</lex>
+    </entry>
+    <entry category="Company" eid="Id63" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Swords,_Dublin | isPartOf | Leinster</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Swords,_Dublin | isPartOf | Leinster</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Swords, Dublin is part of Leinster.</lex>
+    </entry>
+    <entry category="Company" eid="Id64" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Swords,_Dublin | part | Donabate</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Swords,_Dublin | part | Donabate</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Donabate is part of Swords, Dublin.</lex>
+    </entry>
+    <entry category="Company" eid="Id65" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Swords,_Dublin | part | Kinsealy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Swords,_Dublin | part | Kinsealy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Kinsealy is a part of Swords.</lex>
+      <lex comment="good" lid="Id2">Kinsealy is a part of Swords, Dublin.</lex>
+      <lex comment="good" lid="Id3">Kinsealy is part of Swords, Dublin.</lex>
+    </entry>
+    <entry category="Company" eid="Id66" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | foundationPlace | La_Crosse,_Wisconsin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundationPlace | La_Crosse,_Wisconsin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The foundation place of Trane is La Crosse, Wisconsin.</lex>
+      <lex comment="good" lid="Id2">Trane was founded in La Crosse, Wisconsin.</lex>
+    </entry>
+    <entry category="Company" eid="Id67" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | foundingYear | 2007-01-01</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Trane | foundingYear | 1913-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | foundingDate | 1913-01-01</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane was founded on 01-01-1913.</lex>
+      <lex comment="good" lid="Id2">The founding date of Trane is 1913-01-01.</lex>
+      <lex comment="good" lid="Id3">Trane was founded on 1913-01-01.</lex>
+      <lex comment="good" lid="Id4">Trane was founded on January 1, 1913.</lex>
+      <lex comment="good" lid="Id5">Trane was founded on January 1st 1913.</lex>
+    </entry>
+    <entry category="Company" eid="Id68" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | industry | Building_materials</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | industry | Building_materials</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Trane industry is building materials.</lex>
+      <lex comment="good" lid="Id2">Trane is in the building materials industry.</lex>
+      <lex comment="good" lid="Id3">Trane's industry is building materials.</lex>
+      <lex comment="good" lid="Id4">Trane produces building materials.</lex>
+    </entry>
+    <entry category="Company" eid="Id69" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | netIncome | 5.563E8</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | netIncome | 556300000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane has a net income of $556,300,000.</lex>
+      <lex comment="good" lid="Id2">Trane has a net income of about $556 million.</lex>
+      <lex comment="good" lid="Id3">The net income of Trane is $556,300,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id70" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | numberOfEmployees | 29000</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | numberOfEmployees | 29000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The number of employees in Trane is 29,000.</lex>
+      <lex comment="good" lid="Id2">There are 29000 people employed by Trane.</lex>
+      <lex comment="good" lid="Id3">The number of employees at Trane is 29,000.</lex>
+      <lex comment="good" lid="Id4">Trane has 29,000 employees.</lex>
+    </entry>
+    <entry category="Company" eid="Id71" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | product | Building_Management_System</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | product | Building_Management_System</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane makes building management systems.</lex>
+      <lex comment="good" lid="Id2">Trane produces building management systems.</lex>
+      <lex comment="good" lid="Id3">Trane manufactures building management systems.</lex>
+    </entry>
+    <entry category="Company" eid="Id72" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | product | HVAC</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | product | HVAC</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane manufactures HVAC.</lex>
+      <lex comment="good" lid="Id2">One of Trane’s products is HVAC.</lex>
+      <lex comment="good" lid="Id3">Trane produces HVAC.</lex>
+      <lex comment="good" lid="Id4">HVAC is one of Trane's products.</lex>
+      <lex comment="good" lid="Id5">Trane produces HVAC products.</lex>
+    </entry>
+    <entry category="Company" eid="Id73" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | revenue | 1.0264E10</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | revenue | 10264000000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The revenue of Trane is 10264000000.</lex>
+      <lex comment="good" lid="Id2">Trane has a revenue of $10,264,000,000.</lex>
+      <lex comment="good" lid="Id3">The revenue of Trane is $10,264,000,000.</lex>
+    </entry>
+    <entry category="Company" eid="Id74" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Trane | type | Subsidiary</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Trane | type | Subsidiary</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trane is a subsidiary company.</lex>
+      <lex comment="good" lid="Id2">Trane is a subsidiary.</lex>
+      <lex comment="good" lid="Id3">The Trane company is a subsidiary.</lex>
+    </entry>
+    <entry category="Company" eid="Id75" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | areaTotal | 9833516.638013326</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>United_States | areaTotal | 9833520000000.0</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | areaTotal | 9833516.63  (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States covers a total area of 9833516.63 (square kilometres).</lex>
+      <lex comment="good" lid="Id2">The total area of the United States is 9833516.63 (square kilometres).</lex>
+      <lex comment="good" lid="Id3">The total area of the United States is 9,833,516.63 square kilometers.</lex>
+      <lex comment="good" lid="Id4">The total area of the United States is 9833516.63 in square kilometres.</lex>
+    </entry>
+    <entry category="Company" eid="Id76" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | African-American</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | African-American</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">African-American is an ethnic grouping in the United States.</lex>
+      <lex comment="good" lid="Id2">One ethnic group in the United States is African-American.</lex>
+      <lex comment="good" lid="Id3">African-American is an ethnic group in the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id77" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | Native_American</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | Native_American</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Native-American is a United States ethnic grouping.</lex>
+      <lex comment="good" lid="Id2">Native American is one of the ethnic groups in the United States.</lex>
+      <lex comment="good" lid="Id3">One ethnic group in the United States is Native American.</lex>
+      <lex comment="good" lid="Id4">Native Americans are an ethnic group in the United States.</lex>
+      <lex comment="good" lid="Id5">Native American is a United States ethnic group.</lex>
+    </entry>
+    <entry category="Company" eid="Id78" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | White_American</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | White_American</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">White-American is an ethnic grouping in the United States.</lex>
+      <lex comment="good" lid="Id2">One of the ethnic groups of the United States is White Americans.</lex>
+      <lex comment="good" lid="Id3">White American is one of the ethnic groups in the United States.</lex>
+      <lex comment="good" lid="Id4">One ethnic group in the United States is White American.</lex>
+    </entry>
+    <entry category="Company" eid="Id79" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | foundingDate | 1776-07-04</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | foundingDate | 1776-07-04</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States was founded on July 4, 1776.</lex>
+      <lex comment="good" lid="Id2">The United States was founded on 07-04-1776.</lex>
+      <lex comment="good" lid="Id3">The founding date of the United States was 1776-07-04.</lex>
+    </entry>
+    <entry category="Company" eid="Id80" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | governmentType | Federalism</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | governmentType | Federalism</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The type of government in the United States is federalism.</lex>
+      <lex comment="good" lid="Id2">Federalism is the type of government in the United States.</lex>
+      <lex comment="good" lid="Id3">The United States has a Federalism government type.</lex>
+      <lex comment="good" lid="Id4">The United States operates a federal government system.</lex>
+    </entry>
+    <entry category="Company" eid="Id81" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | leader | Paul_Ryan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leader | Paul_Ryan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Paul Ryan is the leader of the United States.</lex>
+      <lex comment="good" lid="Id2">One of the leaders of the United States is named Paul Ryan.</lex>
+      <lex comment="good" lid="Id3">Paul Ryan is the name of one of the government leaders in the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id82" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | leaderTitle | "Vice President"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leaderTitle | "Vice President"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Vice President is a United States leadership title.</lex>
+      <lex comment="good" lid="Id2">One of the leaders of the United States has the title of Vice President.</lex>
+      <lex comment="good" lid="Id3">Vice President is one of the titles of government leaders in the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id83" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>United_States | percentageOfAreaWater | 6.97</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | percentageOfAreaWater | 6.97</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The total area of the United States covered by water is 6.97 percent.</lex>
+      <lex comment="good" lid="Id2">6.97 percent of the area of the United States is water.</lex>
+      <lex comment="good" lid="Id3">The percentage of the United States covered by water is 6.97%.</lex>
+    </entry>
+  </entries>
+</benchmark>
