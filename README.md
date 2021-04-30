@@ -90,7 +90,7 @@ T3-Temperature.ipnyb
 ```
 ### Citation and Contact
 
-** If any part of this code repository or the TCube framework is used in your work, please cite our paper. Thanks! **
+**If any part of this code repository or the TCube framework is used in your work, please cite our paper. Thanks!**
 
 Contact: Mandar Sharma (mandarsharma@vt.edu), First Author.
  
