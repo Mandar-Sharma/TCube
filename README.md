@@ -52,4 +52,49 @@ The entire repository is based on Python 3.6 and the results are visaulized thro
 
 ## Data-Preprocessing Scripts
 
+Under /Finetune PLMs in this repository there are two scripts for pre-processing the WebNLG and DART datasets:
+```
+preprocess_webnlg.py
+preprocess_dart.py
+```
+These scripts draw from the original datasets in /Finetune PLMs/Datasets/WebNLGv3 and /Finetune PLMs/Datasets/DART and prepare CSV files in /Finetune PLMs/Datasets breaking the original datasets into train, dev, and test sets in the format required by our PLMs.
+
+## Fine-tuning Scripts
+Under /Finetune PLMs in this repository there are three scripts for fine-tuning T5, BART, and GPT-2:
+```
+finetuneT5.py
+finetuneBART.py
+finetuneGPT2.py
+```
+
+## Visualization and Evaluation Notebooks
+In the root directory are 10 notebooks.
+For the descriptions of the time-series datasets used:
+```
+Datatsets.ipynb
+```
+For comparisons of segmentation and regime-change detection algorithms:
+```
+Error Determination.ipynb
+Regime Detection.ipynb
+Segmentation.ipynb
+Trend Detection Plot.ipynb
+```
+For the evaluation of the TCube framework on respective time-series datasets:
+```
+T3-COVID.ipnyb
+T3-DOTS.ipnyb
+T3-Pollution.ipnyb
+T3-Population.ipnyb
+T3-Temperature.ipnyb
+```
+### Citation and Contact
+
+**If any part of this code repository or the TCube framework is used in your work, please cite our paper. Thanks! **
+
+Contact: Mandar Sharma (mandarsharma@vt.edu), First Author.
+ 
+
+
+
 
