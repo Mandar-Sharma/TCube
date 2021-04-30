@@ -11,35 +11,35 @@ The entire repository is based on Python 3.6 and the results are visaulized thro
 ## Dependencies
 
 ### Interactive Environments
--notebook
--ipywidgets==7.5.1
+- notebook
+- ipywidgets==7.5.1
 
 ### Deep Learning Frameworks
--torch 1.7.1 (suited to your CUDA version)
--pytorch-lightning 0.9.0
--transformers==3.1.0
+- torch 1.7.1 (suited to your CUDA version)
+- pytorch-lightning 0.9.0
+- transformers==3.1.0
 
 ### NLP Toolkits
--sentencepiece==0.1.91
--nltk
+- sentencepiece==0.1.91
+- nltk
 
 ### Scientific Computing, Data Manipulation, and Visualizations
--numpy
--scipy
--sklearn
--matplotib
--pandas
--pwlf
-cython
+- numpy
+- scipy
+- sklearn
+- matplotib
+- pandas
+- pwlf
 
 ### Evaluation
--rouge-score
--textstat
--lexical_diversity
--language-tool-python
+- rouge-score
+- textstat
+- lexical_diversity
+- language-tool-python
 
 ### Misc
--xlrd
--tqdm
+- xlrd
+- tqdm
+- cython
 
 > Please make sure that the aforementioned Python packages with their specified versions are installed in your system in a separate virtual environment.
