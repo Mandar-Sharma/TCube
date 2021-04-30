@@ -4,6 +4,8 @@ This repository contains the code for the paper: "TCube: A Domain-Agnostic Frame
 
 ![Alt text](Images/arch2.png?raw=true "The two stage TCube framework: In Stage I, the system extracts trends, regimes, and peaks from the input time series which is formulated into a knowledge graph. In Stage II, a PLM fine-tuned for graph-to-text generation generates the narrative from the input graph.")
 
+![Alt text](Images/ultimate_teaser.png?raw=true "TCube Sample Narratives.")
+
 The PLMs used in this effort (T5, BART, and GPT-2) are implemented using the HuggingFace library (https://huggingface.co/) and finetuned to the WebNLG v3 (https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0) and DART (https://arxiv.org/abs/2007.02871) datasets. 
 
 Clones of both datasets are available under /Finetune PLMs/Datasets in this repository. 
