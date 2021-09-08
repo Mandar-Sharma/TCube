@@ -1,6 +1,6 @@
-# TCube: A Domain-Agnostic Framework for Time series Narration
+# TCube: Domain-Agnostic Neural Time series Narration
 
-This repository contains the code for the paper: "TCube: A Domain-Agnostic Framework for Time series Narration" currently under review for ACMKDD 2021.
+This repository contains the code for the paper: "TCube: Domain-Agnostic Neural Time series Narration" (to appear in IEEE ICDM 2021).
 
 ![Alt text](Images/arch2.png?raw=true "The two stage TCube framework: In Stage I, the system extracts trends, regimes, and peaks from the input time series which is formulated into a knowledge graph. In Stage II, a PLM fine-tuned for graph-to-text generation generates the narrative from the input graph.")
 
